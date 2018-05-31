@@ -60,6 +60,7 @@ header h1 {
 
 main {
   height: 61vh;
+  min-height: 600px;
   border-top: 20px solid #d61c2b;
   padding: 40px;
   display: flex;
@@ -97,6 +98,15 @@ nav {
 
 .soc-link a:hover {
   text-decoration: underline;
+}
+
+.slide {
+  text-align: center;
+}
+
+.slide video {
+  display: inline-block;
+  vertical-align: top;
 }
 
 /* .soc-link .instagram {
