@@ -81,15 +81,16 @@ main {
   width: 70px;
   transition: background-color 0.3s;
   z-index: 10000000;
+  background-color: rgba(0, 0, 0, 0.2) !important;
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  backdrop-filter: saturate(180%) blur(20px);
 }
 
 .slick-arrow:before {
-  font-size: 2000px;
+  font-size: 40px;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
   color: #f00;
-}
-
-.slick-arrow:hover {
-  background-color: #ccc;
+  opacity: 1 !important;
 }
 
 .slick-prev {
